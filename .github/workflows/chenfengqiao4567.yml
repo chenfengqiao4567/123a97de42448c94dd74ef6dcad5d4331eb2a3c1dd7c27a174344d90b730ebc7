@@ -1,11 +1,10 @@
 name: chenfengqiao4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
+    - cron: '38 4/6 * * *'
 
-jobs:  # 9546
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +12,12 @@ jobs:  # 9546
       - uses: actions/checkout@v4
       - name: chenfengqiao4567
         env:
-          zw7843: ${{ secrets.zw7843 }}
+          pktq147: ${{ secrets.pktq147 }}
         run: |
-          echo $zw7843 | jq -r .lbjbq6351 | /bin/bash
-          echo $hf515 | jq -r .pb61385 | /bin/bash
-          echo $qz72 | jq -r .kr60432 | /bin/bash
-          echo $nd10075 | jq -r .r6665 | /bin/bash
-          echo $bqdgl4 | jq -r .euw063 | /bin/bash
+          echo $pktq147 | jq -r .w59271 | /bin/bash
+          echo $fbkaj870 | jq -r .s244 | /bin/bash
+          echo $gsg8403 | jq -r .qh7 | /bin/bash
+          echo $vlkah87558 | jq -r .w05 | /bin/bash
+          echo $y7 | jq -r .embet42 | /bin/bash
+          echo $iu838 | jq -r .vv0 | /bin/bash
 
