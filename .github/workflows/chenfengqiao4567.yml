@@ -3,25 +3,22 @@ name: chenfengqiao4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '58 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenfengqiao4567
         env:
-          bsrek98922: ${{ secrets.bsrek98922 }}
+          irwpw36: ${{ secrets.irwpw36 }}
         run: |
-          echo $bsrek98922 | jq -r .kig706 | /bin/bash
-          echo $o01 | jq -r .sk86444 | /bin/bash
-          echo $wrcj08 | jq -r .xb929 | /bin/bash
-          echo $ij56 | jq -r .dwl91 | /bin/bash
-          echo $qf3022 | jq -r .ooje47 | /bin/bash
-          echo $rh3607 | jq -r .wssp2041 | /bin/bash
-          echo $a257 | jq -r .xqubx6 | /bin/bash
-          echo $yhn98 | jq -r .pdwi476 | /bin/bash
-          echo $bm18 | jq -r .q79 | /bin/bash
-          echo $jiw39392 | jq -r .luul3965 | /bin/bash
+          echo $irwpw36 | jq -r .hn8 | /bin/bash
+          echo $bfnd3 | jq -r .qe36 | /bin/bash
+          echo $zti1383 | jq -r .agyiq49572 | /bin/bash
+          echo $zzily8 | jq -r .ofgk84 | /bin/bash
+          echo $scuny1 | jq -r .iub3 | /bin/bash
+          echo $txi6712 | jq -r .xyjz47425 | /bin/bash
 
